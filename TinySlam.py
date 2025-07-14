@@ -9,14 +9,14 @@ import heapq
 import math
 from collections import defaultdict
 import copy
-
+var_x = 3
+var_y = 3
+var_ang = 0.01
 PROB_SOIL = 4
 prob_forte = 0.4
 prob_faible = -0.05
 N_it_loc = 150
-var_x = 3
-var_y = 3
-var_ang = 0.01
+
 
 class TinySlam:
     """Simple occupancy grid SLAM"""
